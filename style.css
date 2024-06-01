@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    border: none;
+    background-color: #57b846;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .btn:hover {
+    background-color: #00ff88d3;
+  }
+  
+  
+  
+  /* Login */
+  
+  .form-login {
+    margin-left: 100px;
+    padding-left: 20px;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .form-login h1 {
+    background-color: #b87646;
+    justify-content: center;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .form-login form {
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .loginForm form div {
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  input {
+    justify-content: center;
+    border: none;
+    background-color: #ebebeb;
+    padding: 16px 32px;
+    border-radius: 4px;
+    width: 50%;
+  }
+  
+  /* Dashboard */
+  .heading {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+ 
+  
+  .stats {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  
+  .card {
+    color: #fff;
+    padding: 16px 24px;
+    border-radius: 5px;
+  }
+  
+  .stats .card-1 {
+    background-color: #46adb8;
+  }
+  .stats .card-2 {
+    background-color: #c04ead;
+  }
+  .stats .card-3 {
+    background-color: #46b86c;
+  }
+  
+  
+  
+  .input-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  .input-cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .input-cards .card div {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .input-cards .card-1 {
+    margin: 20px;
+    background-color: #e63737;
+  }
+  .input-cards .card-2 {
+    margin: 20px;
+    background-color: #2a9dc3;
+  }
